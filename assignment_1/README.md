@@ -2,4 +2,4 @@
 ===
 #### 김현재(2015040013) 신중수(2015040023)
 사진입니다
-![img](./assignment_1/result1.PNG)
+![img](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_1/result1.PNG)
