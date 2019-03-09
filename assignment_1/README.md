@@ -9,5 +9,5 @@
 
 * [실행결과]
 
- ![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_1/result.PNG)
+      ![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_1/result.PNG)
 
