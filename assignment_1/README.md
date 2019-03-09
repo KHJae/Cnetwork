@@ -6,7 +6,8 @@
   * 오름차순 : A / 내림차순 : D
   * 정렬할 배열 : -i
   
-  
+
+
 **[실행결과]**
 
 ![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_1/result.PNG)
