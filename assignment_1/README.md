@@ -2,5 +2,5 @@
 ===
 #### 김현재(2015040013) 신중수(2015040023)
 
-![Asort](./img/A_sort.png)
-![Dsort](./img/D_sort.png)
+![A_sort](./img/A_sort.png)
+![D_sort](./img/D_sort.png)
