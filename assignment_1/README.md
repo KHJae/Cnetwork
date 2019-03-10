@@ -8,7 +8,8 @@
     * 정렬할 배열 : -i
     
   
-* 실행 결과  
+* 실행 결과
+
 ![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_1/result.PNG)
 
 ![result2](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_1/result2.PNG)
