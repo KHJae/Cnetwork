@@ -8,7 +8,8 @@
 * server.py
     * 문자열 : -s
     * 포트 번호 : -p
-  
+* .socket() : 소켓 객체 생성    .bind() : IP와 포트번호 연결    .listen() : 연결 수신 대기 상태
+   .accept() : 연결 수락        .recv() : 데이터를 읽을 때      .sendall() : 데이터를 보낼 때
 * 실행 결과
 
 ![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_2/result.PNG)
