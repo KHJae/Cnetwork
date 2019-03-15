@@ -12,7 +12,7 @@
 .socket() : 소켓 객체 생성|.bind() : IP와 포트번호 연결|.listen() : 연결 수신 대기 상태
 ----|----|----
 .accept() : 연결 수락|.recv() : 데이터 송신|.sendall() : 데이터 수신
-.connect() : 서버 연결|.close() : 종료|
+.connect() : 서버 연결 |.close() : 종료|
 * 실행 결과
 
 ![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_2/result.PNG)
