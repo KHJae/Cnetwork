@@ -18,7 +18,7 @@ def run(host, port, Fname):
                 os.remove(Fname) # 생성된 파일 삭제
                 print("파일 요청 실패")
         else:
-                print("전송받은 파일의 size : %d" % (os.path.getsize(path))) #전송 받은 파일의 크기
+                print("file size : %d" % (os.path.getsize(path))) #전송 받은 파일의 크기
         
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Echo client -p port -i host -f Fname")
