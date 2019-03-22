@@ -12,5 +12,5 @@
   
 * 실행 결과
 
-![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_2/result.PNG)
+![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_3/result.PNG)
 
