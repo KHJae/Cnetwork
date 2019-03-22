@@ -5,11 +5,12 @@
 * file_server.py
     * 포트 번호 : -p
     * 파일 디렉토리 : -d
-> $python file_server.py -p 포트번호 -d "파일 디렉토리"
+> $python file_server.py -p 포트번호 -d "파일디렉토리"
 * file_client.py
     * 서버 아이피 : -i
     * 포트 번호 : -p
     * 파일 이름 : -f
+> $python file_client.py -i 서버아이피 -p 포트번호 -f "파일이름"
   
 * 실행 결과
 
