@@ -20,7 +20,7 @@ def run_server(port, directory):
                 size = os.path.getsize(path) # 파일의 크기
                 file_list = glob.glob(Gpath) # 해당 경로의 디렉토리 파일 목록
                 print("file name : %s" % (file_list[0]))
-                print("size : %d" % (size))
+                print("file size : %d" % (size))
                 with open(path, "rb") as f:
                         push_item = f.read(size) # 전송할 파일 읽기
                         conn.sendall(push_item) # 파일 전송
