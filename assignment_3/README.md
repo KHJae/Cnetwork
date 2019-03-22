@@ -5,7 +5,7 @@
 * file_server.py
     * 포트 번호 : -p
     * 파일 디렉토리 : -d
-    > $python file_server.py -p 포트번호 -d "파일 디렉토리"
+> $python file_server.py -p 포트번호 -d "파일 디렉토리"
 * file_client.py
     * 서버 아이피 : -i
     * 포트 번호 : -p
