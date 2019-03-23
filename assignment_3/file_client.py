@@ -2,7 +2,6 @@
 
 import socket
 import argparse
-import os
 
 def run(host, port, Fname):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
