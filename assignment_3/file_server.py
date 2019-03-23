@@ -12,20 +12,27 @@ def run_server(port, directory):
         s.listen(1) ## max 1 client
         conn, addr = s.accept()
 
-        F_name = conn.recv(1024) # 전송할 파일 이름
+        F_name = conn.recv(520) # 전송할 파일 이름 [1]
         file_name = F_name.decode()
-        path = "C://Users//khj40//Cnetwork//assignment_3//" + directory + "//" + file_name # 전송할 파일의 경로
+        PATH = "C://Users//khj40//Cnetwork//assignment_3//" + directory + "//" + file_name # 전송할 파일의 경로
         Gpath = directory + "/" + file_name # glob() 경로
-        try :
-                size = os.path.getsize(path) # 파일의 크기
+        
+        if os.path.exists(PATH) == False :
+                print(">> [%s] file not found <<" % (file_name))
+                conn.sendall("X".encode()) # [2] 
+        else :  
+                conn.sendall("Y".encode()) # [2]
+                size = os.path.getsize(PATH) # 파일의 크기
+                conn.sendall(str(size).encode()) # 파일의 크기 전송 [3] 
                 file_list = glob.glob(Gpath) # 해당 경로의 디렉토리 파일 목록
+
                 print("file name : %s" % (file_list[0]))
                 print("file size : %d" % (size))
-                with open(path, "rb") as f:
+                print("[size] server -> client : %s" % (conn.recv(2).decode())) # [4]
+
+                with open(PATH, "rb") as f:
                         push_item = f.read(size) # 전송할 파일 읽기
-                        conn.sendall(push_item) # 파일 전송
-        except:
-                print(">> [ %s 파일을 찾을 수 없습니다 ] <<" % (file_name))
+                        conn.sendall(push_item) # 파일 전송 [5]
         conn.close()
         
 
