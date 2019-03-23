@@ -8,7 +8,6 @@ def run(host, port, Fname):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((host, port))
         
-        PATH = "C://Users//khj40//Cnetwork//assignment_3//" + Fname  # 전송받을 파일의 경로
         print("file name : %s " % (Fname))
         s.sendall(Fname.encode()) # [1]
         msg = s.recv(1).decode() # 파일의 존재 여부 [2]
@@ -18,7 +17,7 @@ def run(host, port, Fname):
                 pull_item = s.recv(int(Fsize)) # 파일의 사이즈만큼 서버로 부터 파일 수신 [5]
                 with open(Fname, "wb") as f:
                         f.write(pull_item) # 파일 저장
-                print("file size : %d" % (os.path.getsize(PATH))) #전송 받은 파일의 크기        
+                print("file size : %d" % int(Fsize)) #전송 받은 파일의 크기        
         else:
                 print("fail")
         
