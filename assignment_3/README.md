@@ -13,10 +13,10 @@
 > $python file_client.py -i 서버아이피 -p 포트번호 -f "파일이름"
   
 * 실행 결과
-   * 요청한 파일이 존재할 경우
+> 요청한 파일이 존재할 경우
    
 ![result](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_3/result.PNG)
-   * 요청한 파일이 존재하지 
+> 요청한 파일이 존재하지 않은 경우 
 
 ![result2](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_3/result2.PNG)
 
