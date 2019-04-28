@@ -14,7 +14,7 @@ Asynchronous : 비동기 |I/O Multiplexing(select/Poll)| Asynchronous I/O
 
 ## thread.join() : 한 스레드가 처리될때까지 다른 스레드를 대기 하는 기능 
 > ### Result : 총 3개의 클라이언트로 실습, 위 클라이언트부터 차례대로 서버접속 후 2,3번째 클라이언트 문자열 전송 
-![server_client(before input)]()
+![server_client(before input)](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_5/server_client(before%20input).png)
 
 > ### Result : 1번 클라이언트의 요청이 처리가 안되어 2,3번 클라 요청 대기 -> 1번 클라 문자열 전송 후 2, 3번 클라의 문자열도 전송
 ![server_client(after input)]()
