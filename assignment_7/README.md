@@ -7,5 +7,5 @@
 
 * Wireshark는 어떠한 라이브러리를 사용하는가?(Linux, Windows)
 
-* Wireshar로 Assignment#2가 실행되면서 서버-클라이언트간 주고받은 TCP 패킷을 캡쳐해서 사진 첨부
+* Wireshark로 Assignment#2가 실행되면서 서버-클라이언트간 주고받은 TCP 패킷을 캡쳐해서 사진 첨부
   * 문자열은 팀 이름을 전달 : H & S
