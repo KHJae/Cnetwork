@@ -20,6 +20,6 @@ Asynchronous : 비동기 |I/O Multiplexing(select/Poll)| Asynchronous I/O
 ![server_client(after input)](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_5/server_client(after%20input).png)
 
 > ### Result : thread.join() 미사용, 총 3개의 클라이언트로 실습, 서버는 클라이언트가 전송한 문자열을 뒤집어 전송
-![not_use_join()]()
+![not_use_join()](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_5/not_use_join().png)
 
 
