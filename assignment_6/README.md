@@ -18,7 +18,7 @@ Asynchronous : 비동기 |I/O Multiplexing(select/Poll)| Asynchronous I/O
 
 ## Result
 
-![chatting]()
+![chatting](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_6/chatting.png)
 
 
 
