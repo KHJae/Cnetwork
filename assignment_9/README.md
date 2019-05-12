@@ -12,6 +12,6 @@
 
 * 프로그램 실행 뒤 google.com에 PING을 1번 보낸 결과를 캡쳐해 첨부
 
-#### [ 결과 ] : ping -c 1 8.8.8.8
+#### 결과 : ping -c 1 8.8.8.8
 ![result1](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_9/result1.PNG)
 ![result2](https://raw.githubusercontent.com/KHJae/Cnetwork/master/assignment_9/result2.PNG)
