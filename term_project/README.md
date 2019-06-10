@@ -16,6 +16,6 @@ Term Project
 
 ![result1](https://raw.githubusercontent.com/KHJae/Cnetwork/master/term_project/result1.PNG)
  
- - 옵션을 주었을 
+ - 옵션을 주었을 때
 
 ![result2](https://raw.githubusercontent.com/KHJae/Cnetwork/master/term_project/result2.PNG)
