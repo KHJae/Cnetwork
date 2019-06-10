@@ -12,10 +12,10 @@ Term Project
 
 
 #### 결과 화면
-옵션을 주었을 때
+ - 옵션을 주었을 때
 
 ![result1](https://raw.githubusercontent.com/KHJae/Cnetwork/master/term_project/result1.PNG)
-
-옵션을 주지않았을 때
+ 
+ - 옵션을 주지않았을 때
 
 ![result2](https://raw.githubusercontent.com/KHJae/Cnetwork/master/term_project/result2.PNG)
