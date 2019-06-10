@@ -11,6 +11,8 @@ Term Project
   * 스니핑할 때 자신이 보낸 UDP, ICMP인지 확인하는 로직 작성
 
 
-#### 결과 화면 : ping -c 1 8.8.8.8
+#### 결과 화면
+옵션을 주었을 때
 ![result1](https://raw.githubusercontent.com/KHJae/Cnetwork/master/term_project/result1.PNG)
+옵션을 주지않았을 
 ![result2](https://raw.githubusercontent.com/KHJae/Cnetwork/master/term_project/result2.PNG)
